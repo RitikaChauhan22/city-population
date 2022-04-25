@@ -1,0 +1,66 @@
+{
+  "country_list": [
+    {
+      "id": 1,
+      "name": "india"
+    },
+    {
+      "id": 2,
+      "name": "pakistan"
+    },
+    {
+      "id": 3,
+      "name": "Sri Lanka"
+    },
+    {
+      "id": 4,
+      "name": "bhutan"
+    },
+    {
+      "id": 5,
+      "name": "bangladesh"
+    },
+    {
+      "name": "china",
+      "id": 6
+    }
+  ],
+  "city-list": [
+    {
+      "id": 1,
+      "country": "india",
+      "name": "kanpur",
+      "population": 102
+    },
+    {
+      "id": 2,
+      "country": "pakistan",
+      "name": "karachi",
+      "population": "202"
+    },
+    {
+      "id": 3,
+      "country": "china",
+      "name": "mountain",
+      "population": 69
+    },
+    {
+      "id": 4,
+      "country": "bhutan",
+      "name": "poverty",
+      "population": 609
+    },
+    {
+      "name": "delhi",
+      "country": "india",
+      "population": "85258",
+      "id": 5
+    },
+    {
+      "name": "mumbai",
+      "country": "india",
+      "population": "789",
+      "id": 6
+    }
+  ]
+}
