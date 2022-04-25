@@ -1,22 +1,16 @@
 import "./Home.css";
-
-//import { makeStyles } from "@material-ui/core/styles";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
-//import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import { useContext } from "react";
 import axios from "axios";
-//import Button from "@material-ui/core/Button";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { PageContext } from "../contextApi/PageContext";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteCity, modalData, sortCity } from "../Redux/action";
-
-//import { BsFillHandIndexFill } from "react-icons/bs";
 
 export const Home = () => 
 {
@@ -52,7 +46,7 @@ export const Home = () =>
             <TableCell className="flex">City name</TableCell>
             <TableCell align="right">Country Name</TableCell>
             <TableCell align="right">Population</TableCell>
-            <TableCell align="center">Edit||Delete</TableCell>
+            <TableCell align="center">Edit || Delete</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
